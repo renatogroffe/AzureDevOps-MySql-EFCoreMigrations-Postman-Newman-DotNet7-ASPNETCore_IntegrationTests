@@ -56,7 +56,7 @@ stages:
         useLegacyPattern: false
         defaultValue: '$(BaseSuporteConnectionString)'
         enableTelemetry: true
-      displayName: Configurar a string de conexão do PostgreSQL no appsettings.json
+      displayName: Configurar a string de conexão do MySQL no appsettings.json
     - script: cat $(appsettings_Path)
       displayName: Exibir conteúdo do appsettings.json
     - script: |
